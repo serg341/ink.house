@@ -1,0 +1,121 @@
+.art {
+    margin-top: $section-margin;
+
+    &__head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2.89rem;
+    }
+}
+
+.tabs {
+    display: flex;
+    gap: 2.89rem;
+    overflow: scroll;
+
+    a {
+        background-color: $light-green;
+        padding: 0.55rem 1.11rem;
+        border-radius: 20px;
+    }
+
+    a:active {
+        background-color: #376b44;
+        color: $font-white;
+    }
+
+    a:visited {
+        color: $font-black;
+    }
+
+    >a:focus {
+        border: 1px solid $font-green;
+    }
+
+    a:hover {
+        color: $font-white;
+        background-color: $font-green;
+    }
+}
+
+.paintings {
+    margin-top: 1.67rem;
+
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    // gap: 1.67rem;
+    // }
+
+    &__france,
+    &__germany,
+    &__england {
+        display: none;
+    }
+
+    &__france:target,
+    &__germany:target,
+    &__england:target {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__france>*,
+    &__germany>*,
+    &__england>* {
+        flex: 1 0 290px;
+    }
+}
+
+.paint {
+    background-color: $card-background;
+    padding: $card-padding;
+    // width: calc(100%/3);
+    width: 100%;
+    max-width: 340px;
+    // max-width: 28.33%;
+    // max-width: 341px;
+    // min-width: 100px;
+
+    display: flex;
+    flex-direction: column;
+
+    img {
+        padding-bottom: 1.25rem;
+    }
+
+    p:nth-child(2) {
+        color: $font-light-grey;
+        padding-bottom: 0.63rem;
+        margin: auto 0;
+    }
+
+    p:nth-child(4) {
+        padding-bottom: 1.67rem;
+    }
+
+    p:nth-child(5) {
+        color: $font-green;
+        font-size: 1.33rem;
+        padding-bottom: 1.25rem;
+        margin-top: auto;
+    }
+
+    button {
+        color: $font-green;
+        background-color: transparent;
+        border: 1px solid $font-green;
+        width: 100%;
+        padding: 1.17rem 0;
+        font-size: 1.25rem;
+        cursor: pointer;
+    }
+
+    button:hover {
+        color: $font-white;
+        background-color: $font-green;
+    }
+}

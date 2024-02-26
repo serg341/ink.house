@@ -1,0 +1,68 @@
+.collection {
+    margin-top: $section-margin;
+    background: url(../img/collection-banner.jpg) top center no-repeat;
+    background-size: cover;
+    position: relative;
+
+    &__blur {
+        background: linear-gradient(90deg, rgb(13, 43, 67), transparent 80%);
+        position: absolute;
+        width: 50%;
+        z-index: 10;
+        height: 100%;
+        top: 0; 
+    }
+
+    &__content {
+        width: calc(100% / 2);
+        padding: 4rem 0;
+        position: relative;
+        z-index: 10;
+    }
+
+    img {
+        max-width: 4.44rem;
+    }
+
+    &__title {
+        display: flex;
+        align-items: center;
+        gap: 1.11rem;
+    }
+
+    &__text {
+        color: #fff ;
+        max-width: 520px;
+        margin-top: 1.11rem;
+    }
+
+    a {
+        background-color: #eedb6d;
+        color: $font-black;
+        padding: 1.17rem 3.33rem;
+        margin-top: 3.33rem;
+    }
+
+    a:hover {
+        background-color: #faeb97;
+    }
+
+    a:focus {
+        outline: none;
+        border:1px solid $dark-gold;
+    }
+
+    a:active {
+        background-color: $dark-yellow;
+    }
+
+    p {
+        margin-bottom: 1.67rem;
+        line-height: 150%;
+    }
+
+    p + p {
+        margin-bottom: 0;
+    }
+
+}

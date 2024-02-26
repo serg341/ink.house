@@ -1,0 +1,123 @@
+body {
+    box-sizing: border-box;
+    font-family: $font;
+    color: $font-black;
+    background-color: #F4F6F5;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 3.84rem;
+    margin: 0;
+    width: 90%;
+}
+
+h1 span {
+    font-size: 3.84rem;
+}
+
+h2 {
+    font-family: $font;
+    font-size: 2.22rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+h3 {
+    font-family: $font;
+    font-size: remify(40px);
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+h4 {
+    font-family: $font;
+    font-size: 2.22rem;
+    color: $font-white;
+    font-weight: 500;
+}
+
+h5 {
+    font-family: $font;
+    font-size: 2.22rem;
+    font-weight: 500;
+    padding-bottom: 1.11rem;
+}
+
+h6 {
+    font-family: $font;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+p {
+    margin: 0;
+    text-wrap: balance;
+}
+
+button {
+    transition: all .2s;
+}
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 2.22rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: fit-content;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: $font-black;
+    transition: all .5s;
+}
+
+a:hover {
+    color: $font-green;
+}
+
+a:focus {
+    background-color: $light-green;
+    color: $font-green;
+    outline: none;
+}
+
+a:active {
+    background-color: $dark-green;
+    color: $font-white;
+}
+
+svg:focus {
+    fill: $font-green;
+    background-color: $light-green;
+}
+
+button:focus {
+    background-color: $light-green;
+    // outline: none;
+}
+
+ul {
+    list-style: none;
+    color: inherit;
+    padding: 0;
+}
+
+.logo {
+    max-width: 7.94rem;
+}

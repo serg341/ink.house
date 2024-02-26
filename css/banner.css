@@ -1,0 +1,6 @@
+.banner__inner {
+  display: flex;
+}
+.banner__inner img {
+  max-width: 540px;
+}/*# sourceMappingURL=banner.css.map */

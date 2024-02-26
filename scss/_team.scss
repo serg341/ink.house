@@ -1,0 +1,32 @@
+.team {
+    margin-top: $section-margin;
+
+    &__inner {
+        display: flex;
+        gap: 1.6rem;
+    }
+
+    &__frame {
+        max-width: 445px;
+        margin: auto 0;
+    }
+
+    &__content {
+        margin-top: auto;
+    }
+
+    &__photo {
+        display: flex;
+        padding-bottom: 44px;
+        gap: 30px;
+    }
+
+    &__photo img {
+        max-width: 80px;
+    }
+
+    p {
+        padding-bottom: 1.11rem;
+        line-height: 150%;
+    }
+}

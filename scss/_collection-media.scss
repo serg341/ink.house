@@ -1,0 +1,16 @@
+@include laptop {
+    .collection {
+        &__content {
+            width: 100%;
+        }
+
+        &__blur {
+            width: 100%;
+            background: linear-gradient(90deg, rgb(13, 43, 67), transparent 100%);
+        }
+
+        &__text {
+            max-width: 100%;
+        }
+    }
+}

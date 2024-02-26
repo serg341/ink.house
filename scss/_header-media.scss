@@ -1,0 +1,37 @@
+@include laptop {
+    .header {
+        nav {
+            padding-top: 0.97rem;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            gap: 3.33rem;
+        }
+
+        .logo {
+            display: none;
+        }
+
+        .mobile {
+            display: block;
+            margin: 0 auto;
+            padding-bottom: 0.87rem;
+        }
+
+        .header__inner {
+            border-top: 1px solid #C3D1C6;
+        }
+
+        ul a {
+            font-size: 18px;
+        }
+
+        li:nth-child(4) {
+            display: none;
+        }
+    }
+
+    .cart-mob {
+        display: flex;
+    }
+}

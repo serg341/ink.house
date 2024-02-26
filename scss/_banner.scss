@@ -1,0 +1,57 @@
+.banner {
+
+    span {
+        color: #598d66;
+    }
+
+    p {
+        color: $font-light-grey;
+        padding-top: 1.11rem;
+    }
+
+    img {
+        max-width: 50%;
+        margin: auto 0;
+    }
+
+    &__inner {
+        display: flex;
+        gap: 1.67rem;
+    }
+
+    &__content {
+        // margin: auto 0;
+        max-width: 50%;
+        padding-top: 1.67rem;
+    }
+
+    a {
+        color: #598d66;
+        padding: 1.17rem 3.33rem;
+        border: 1px solid $font-green;
+        margin-top: 3.33rem;
+    }
+
+    a:hover {
+        color: $font-white;
+        background-color: $font-green;
+    }
+
+    a:active {
+        background-color: $dark-green;
+        color: $font-white;
+    }
+}
+
+.logo {
+    display: block;
+
+}
+
+.mobile {
+    display: none;
+}
+
+.cart-mob {
+    display: none;
+}

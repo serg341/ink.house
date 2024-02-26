@@ -1,0 +1,7 @@
+@include laptop {
+    .team {
+        &__inner {
+            flex-direction: column;
+        }
+    }
+}

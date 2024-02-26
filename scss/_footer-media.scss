@@ -1,0 +1,36 @@
+@include laptop {
+    .footer {
+        &__logo {
+            flex-direction: row;
+        }
+        &__inner {
+            flex-direction: column;
+        }
+        &__content {
+            width: 100%;
+        }
+    }
+}
+
+@include big-tablet {
+    .footer {
+        &__content {
+            flex-direction: column;
+            gap: 0;
+        }
+
+        &__navigation {
+            max-width: 100%;
+            padding-bottom: 0.88rem;
+            border-bottom: 1px solid #C3D1C6;
+        }
+    }
+
+    .socials {
+        margin: 0.88rem auto 0 auto;
+
+        span {
+            display: none;
+        }
+    }
+}
