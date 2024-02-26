@@ -228,6 +228,10 @@ ul {
   background-color: #598d66;
 }
 
+.tabs::-webkit-scrollbar {
+  display: none;
+}
+
 .paintings {
   margin-top: 1.67rem;
 }
